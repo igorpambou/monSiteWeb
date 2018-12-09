@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+  }
+
+nav ul a {
+    color: black;
+}
+
+nav .brand-logo {
+    color: black;
+    margin-left: 1%;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+#logo:hover {
+    color: red;
+    font-size: 175%;
+}
+
+#navbarNav ul li a:hover {
+    color: red;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#btn_cv:hover {
+    background-color: brown !important;
+    color: white !important;
+}
+
+#btn_cv_after {
+    padding-left: 22%;
+    padding-right: 12%;
+}
+
+#btn_cv_after:hover {
+    background-color: brown !important;
+    color: white !important;
+    font-size: 120%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("img/image_fond.jpg");
+  
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+@media (max-width: 1023px) {
+    .bg {
+        display: none !important;
+    }
+    #presentation {
+        margin-top: 8%;
+    }
+}
+
+#hr_title {
+    background-color: red ;
+    width: 40%;
+    height: 3px;
+    border: none;
+}  
+
+#presentation {
+    background-color: #3c3c3c;
+    color: white;
+}
+
+#hr_interligne {
+    background-color: red ;
+    width: 25%;
+    height: 3px;
+    border: none;
+}
+
+#date_jobs {
+    font-size: 75%;
+}
+
+
+#school {
+    background-color: #5e5e5e;
+    color: white;
+}
+
+#logo_linkedin {
+    color: white;
+}
+
+#contact {
+    background-color: #3b3b3b;
+    color: white;
+}
+
+#my_footer {
+    background-color: #161616;
+    color: white;
+}
